@@ -5,7 +5,7 @@ import https from "https";
 import { encode } from "gpt-3-encoder";
 import { randomUUID } from "crypto";
 // Constants for the server and API configuration
-console.log("------20240212------");
+console.log("------88888------");
 console.log(process.argv);
 const port =  process.argv[3];
 const local_ip = process.argv[2];
