@@ -1,5 +1,5 @@
 # Use a Node.js base image
-FROM node:19
+FROM node:19-alpine
 
 # Set the working directory
 WORKDIR /app
@@ -14,4 +14,4 @@ RUN npm install
 EXPOSE 3040
 
 # Command to run the start script
-CMD ["bash", "start.sh"]
+CMD ["sh", "start.sh"]
